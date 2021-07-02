@@ -1,1 +1,8 @@
-// 在此处测试；当此软件包作为插件使用时，将不会编译此软件包。
+let item = 0
+I2C_LCD2004.LcdInit(0)
+I2C_LCD2004.ShowString("Hello", 0, 0)
+basic.forever(() => {
+    item += 1
+    I2C_LCD2004.ShowNumber(item, 0, 1)
+    basic.pause(1000)
+})

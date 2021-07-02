@@ -1,7 +1,7 @@
 {
     "name": "pxt-i2clcd2004",
     "version": "0.0.0",
-    "description": "",
+    "description": "makecode I2C LCD2004 extension for micro:bit",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -9,7 +9,6 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
         "main.ts"
     ],
     "testFiles": [
@@ -19,5 +18,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
